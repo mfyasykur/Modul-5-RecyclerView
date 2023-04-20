@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nama_mahasiswa">Nama Mahasiswa</string>
+    <string name="nim_mahasiswa">NIM Mahasiswa</string>
+    <string name="telp_mahasiswa">Telp Mahasiswa</string>
+</resources>
