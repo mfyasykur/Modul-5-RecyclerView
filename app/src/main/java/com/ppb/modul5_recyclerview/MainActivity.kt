@@ -23,16 +23,16 @@ class MainActivity : AppCompatActivity() {
         recyclerView = findViewById(R.id.RV_Mahasiswa)
         recyclerView.setHasFixedSize(true)
 
-        //List Mode
-//        showListMahasiswa()
+        // List/Card Mode
+        showListMahasiswa()
 
-        //Grid Mode
-        showGridMahasiswa()
+        // Grid Mode
+//        showGridMahasiswa()
     }
 
     private fun showListMahasiswa() {
         recyclerView.layoutManager = LinearLayoutManager(this)
-        recyclerView.adapter = ListMahasiswaAdapter(this, dataMahasiswa)
+        recyclerView.adapter = ListMahasiswaAdapter(this, dataMahasiswa){}
     }
 
     private fun showGridMahasiswa() {
